@@ -1,0 +1,13 @@
+.update-nag, 
+.updated, 
+.error, 
+.is-dismissible, 
+#setting-error-tgmpa,
+.notice { 
+    display: none !important; 
+}
+#adminmenu .update-plugins, 
+#adminmenu .plugin-count,
+#wp-admin-bar-updates { 
+    display: none !important; 
+}
