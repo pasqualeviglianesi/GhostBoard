@@ -23,9 +23,11 @@ class GhostBoard {
     }
 
     public function enqueue_admin_styles() {
-        wp_enqueue_style(
-            'ghostboard-admin-style', 
-            plugin_dir_url( dirname(__FILE__) ) . 'assets/css/admin-style.css'
-        );
+         wp_enqueue_style(
+             'ghostboard-admin-style', 
+             plugin_dir_url( dirname(__FILE__) ) . 'assets/css/admin-style.css',
+             array(),
+             GHOSTBOARD_VERSION // Usa la costante definita nel file principale
+         );
     }
 }
