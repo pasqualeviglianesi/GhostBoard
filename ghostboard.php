@@ -13,6 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'GHOSTBOARD_PATH', plugin_dir_path( __FILE__ ) );
+define( 'GHOSTBOARD_VERSION', '1.0.0' );
 
 require_once GHOSTBOARD_PATH . 'includes/class-ghostboard.php';
 
