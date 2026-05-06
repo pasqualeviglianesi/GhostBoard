@@ -16,8 +16,8 @@ define( 'GHOSTBOARD_PATH', plugin_dir_path( __FILE__ ) );
 
 require_once GHOSTBOARD_PATH . 'includes/class-ghostboard.php';
 
-function run_ghostboard() {
+function ghostboard_run() {
     $plugin = new GhostBoard();
     $plugin->init();
 }
-run_ghostboard();
+ghostboard_run();
